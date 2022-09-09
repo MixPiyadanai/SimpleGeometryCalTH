@@ -1,0 +1,156 @@
+body {
+    margin-top: 2vw;
+    background-color: #041C32;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+}
+
+.dark-mode {
+    background-color: #fff;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.75vw;
+}
+
+table {
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1.5vw;
+    width: 65vw;
+}
+
+td.leftPanel{
+    vertical-align: top;
+    text-align: left;
+}
+
+td.rightPanel {
+    vertical-align: top;
+    text-align: left;
+    font-size: 1vw;
+    height: 25vw;
+    width: 50vw;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 0.5vw;
+    height: 2.75vw;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 0.2vw solid #555555;
+    border-radius: 1vw;
+
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+ol.u {
+    list-style-type: square;
+    font-size: 1vw;
+    padding-left: 1.5vw;
+    margin: 0;
+    vertical-align: top;
+}
+
+.listBtn {
+    background-color: transparent;
+    font-size: 1vw;
+    color: white;
+    border: none;
+    font-family: 'Prompt', sans-serif;
+    transition-duration: 0.2s;
+}
+
+.listBtn:hover {
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+    background-color: white;
+    height: 1.5vw;
+    font-size: 1vw;
+    font-family: 'Prompt', sans-serif;
+    border-color: #041C32;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: .25vw;
+    margin-bottom: 1vw;
+}
+
+input[type="button"] {
+    background-color: white;
+    border: none;
+    border-radius: .25vw;
+    height: 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+
+#CircCal {
+    font-family: 'Prompt', sans-serif;
+    display: none;
+    font-size: 1.5vw;
+}
+
+#TriCal {
+    font-family: 'Prompt', sans-serif;
+    display: none;
+    font-size: 1.5vw;
+
+}
+
+#RecCal {
+    font-family: 'Prompt', sans-serif;
+    display: none;
+    font-size: 1.5vw;
+}
